@@ -1,0 +1,43 @@
+컴퓨터 언어 : 저급 언어 + 고급 언어
+저급언어 : 컴퓨터가 이해하기 쉬운언어 : 기계어(이진수), 어셈블리어
+고급언어 : 사람이 이해하기 쉬운언어 : java, python, c등등
+
+저급 언어 --번역프로그램--고급언어
+complier, interpreter (완전히 반대되는 개념)
+
+JDK, JRE, JVM
+컴퓨터 프로그램 - 어떠한 일을 처리하기 위한 소스코드로 구성된 것 = 특정 작업을 수행하는 소스코드의 모임
+JVM(Java Virtual Machine) : java로 만든 프로그램을 실행시켜줌
+JRE(Java Runtime Environment) : JVM을 포함하며 JVM을 실행할때 필요한 라이브러리를 가지고 있음
+JDK(Java Development Kit) : JRE를 포함하며 JRE를 제외한 개발에 필요한 도구들을 가지고 있음
+IDE(Intergrated Developmented Environment) : 통합개발환경
+
+JAVA -> eclipse사용
+
+eclipse 설정
+1. eclipse 글씨체 변경
+	font 검색 > Colors and Fonts 클릭 > Basic 클릭 > Text Font 클릭 > Edit 클릭 > 원하는 글꼴과 크기 설정하고 > Apply
+2. 인코딩 타입 변경
+	enc 검색 > workspace 클릭 > Text file encoding Other 클릭 > UTF-8로 변경 > apply
+3. 컴파일러 변경
+	compiler 검색 > level 11로 변경 > Apply
+4. 관점 변경
+	Perspective 검색 > 기본 JAVA EE에서 JAVA로 변경 > make Defalut 클릭
+
+자바의 구성요소
+
+project > package > class > method > sourcecode
+* class는 첫글자가 대문자
+* method는 이름 뒤에 소괄호가 온다
+
+프로젝트 생성
+	ctrl + n > java project > 프로젝트 이름, jre 11변경, 모듈체크 해제 > finish
+
+패키지 생성
+	ctrl + n > package > 패키지 이름 > finish
+
+클래스 생성
+	ctrl + n > class > 클래스 이름 (첫글자는 대문자) > finish
+
+메소드 생성
+	클래스의 중괄호 {}안에서 main이라고 쓰고 ctrl + spacebar > 엔터
